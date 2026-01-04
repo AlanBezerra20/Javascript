@@ -1,0 +1,24 @@
+body{
+background-color: rgb(19, 19, 105);
+font: normal 15px Arial,sans-serif;
+color: white;
+}
+header{
+color: white;
+text-align: center;
+}
+p{
+    color: black;
+}
+section{
+background-color: white;
+border-radius: 10px;
+margin: auto;
+width: 500px;
+padding:15px;
+}
+footer > p{
+color: white;
+text-align: center;
+padding: 10px;
+}
