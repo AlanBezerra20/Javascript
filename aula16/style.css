@@ -8,6 +8,12 @@ color: white;
 text-align: center;
 }
 
+select#fim{
+    width: 150px;
+
+}
+
+
 section{
 background-color: white;
 border-radius: 10px;
