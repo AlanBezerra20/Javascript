@@ -8,7 +8,7 @@ if (txtnum==0){
     let num= txtnum;
     num= Number(txtnum);
    
-   for( sub=0; sub<=10; sub++){
+   for( sub=0; sub<=1000; sub++){
     let res = num * sub;
     msg.innerHTML += `${num} x ${sub} = ${res} <br>`;
     

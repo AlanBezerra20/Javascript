@@ -23,7 +23,7 @@ alert(v(8));
 
 
 
-// Exemplo 3:
+/* Exemplo 3:
 function fatorial(n){
     let fat = 1;
     for(let c= n; c>1; c--){
@@ -32,3 +32,11 @@ function fatorial(n){
     return fat;
 }
 alert(fatorial(5));
+*/
+
+// Exemplo 4 :
+function obtemDiadaSemana(){
+  return new Date() .getDay();
+}
+let dia= obtemDiadaSemana();
+console.log(dia);
